@@ -7,6 +7,7 @@ import java.nio.file.Paths;
 import java.util.List;
 
 public class Mp3ToTxt {
+
     public static void main(String[] args) throws Exception {
         // set up the Google Cloud Speech-to-Text API client
         try (SpeechClient speechClient = SpeechClient.create()) {
